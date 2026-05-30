@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Robert Pickton — O Assassino da Fazenda de Porcos · Desvendando Mentes</title>
+<meta name="description" content="Robert Pickton matou quase 50 mulheres entre 1995 e 2001 em Vancouver. Uma análise criminológica por Rubens Correia Jr.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bk:#06080a;--pp:#f5f0e8;--pp2:#ede8df;--red:#8b1a1a;--red2:#a82020;--r3:rgba(139,26,26,.12);--fg:#c8c4bc;--fg2:#8a857d;--fg3:#3a3530;--ink:#0e1114;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--bk);color:var(--fg);overflow-x:hidden;line-height:1.75;}
+::-webkit-scrollbar{width:2px;}::-webkit-scrollbar-thumb{background:var(--red);}
+nav{position:fixed;top:0;left:0;right:0;z-index:500;height:58px;padding:0 5vw;display:flex;justify-content:space-between;align-items:center;background:rgba(6,8,10,.97);backdrop-filter:blur(18px);border-bottom:1px solid rgba(139,26,26,.1);}
+.nb{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:700;color:var(--pp);text-decoration:none;}
+.nb em{color:var(--red);font-style:normal;}
+.nav-back{color:var(--fg3);font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:color .2s;}
+.nav-back:hover{color:var(--pp);}
+.hero-art{margin-top:58px;height:420px;background:linear-gradient(to bottom,rgba(6,8,10,0) 0%,rgba(6,8,10,.7) 60%,var(--bk) 100%),url('img-pickton.png') center/cover no-repeat;display:flex;align-items:flex-end;padding:0 8vw 50px;}
+.art-tag{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:10px;}
+.art-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,4vw,50px);font-weight:700;color:var(--pp);line-height:1.1;max-width:700px;}
+.art-h1 em{color:var(--red);font-style:normal;}
+.content{max-width:760px;margin:0 auto;padding:60px 5vw 100px;}
+.meta{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.05);}
+.meta-item{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--fg3);}
+.meta-item span{color:var(--red);}
+.body-text p{font-size:16px;line-height:1.85;color:var(--fg);margin-bottom:24px;font-weight:300;}
+.body-text p strong{color:var(--pp);font-weight:500;}
+.pull-quote{border-left:2px solid var(--red);padding:20px 28px;margin:40px 0;background:rgba(139,26,26,.06);}
+.pull-quote p{font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.6;color:var(--pp2);font-style:italic;margin:0;}
+.pull-quote cite{font-size:11px;color:var(--fg3);letter-spacing:1px;margin-top:10px;display:block;font-style:normal;}
+.section-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;color:var(--pp);margin:48px 0 20px;padding-top:40px;border-top:1px solid rgba(255,255,255,.05);}
+.analysis-box{background:rgba(139,26,26,.08);border:1px solid rgba(139,26,26,.2);padding:28px 32px;margin:40px 0;}
+.analysis-box .ab-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.analysis-box p{font-size:15px;line-height:1.8;color:var(--fg);margin-bottom:16px;font-weight:300;}
+.analysis-box p:last-child{margin-bottom:0;}
+.cta-box{background:var(--ink);border:1px solid rgba(139,26,26,.2);padding:40px;margin:60px 0 0;text-align:center;}
+.cta-box .cb-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:14px;}
+.cta-box h3{font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--pp);margin-bottom:10px;}
+.cta-box p{font-size:14px;color:var(--fg2);margin-bottom:24px;font-weight:300;}
+.btn{background:var(--red);color:var(--pp);padding:14px 32px;font-size:10px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;display:inline-block;transition:all .25s;font-family:'DM Sans',sans-serif;font-weight:600;}
+.btn:hover{background:var(--red2);}
+.more-stories{margin-top:80px;padding-top:40px;border-top:1px solid rgba(255,255,255,.05);}
+.ms-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--fg3);margin-bottom:24px;}
+.ms-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.ms-card{border:1px solid rgba(255,255,255,.06);padding:24px;text-decoration:none;transition:border-color .2s;display:block;}
+.ms-card:hover{border-color:rgba(139,26,26,.4);}
+.ms-card .mc-tag{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:8px;}
+.ms-card h4{font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--pp);margin-bottom:6px;line-height:1.3;}
+.ms-card p{font-size:12px;color:var(--fg3);line-height:1.5;}
+footer{padding:40px 5vw;border-top:1px solid rgba(255,255,255,.04);text-align:center;}
+footer p{font-size:12px;color:var(--fg3);}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nb">Desvendando<em>Mentes</em></a>
+  <a href="index.html#serial" class="nav-back">← Voltar aos casos</a>
+</nav>
+
+<div class="hero-art">
+  <div>
+    <div class="art-tag">Canadá · 1995–2001 · Invisibilidade Social</div>
+    <h1 class="art-h1">Robert Pickton — O <em>Fazendeiro</em> que Ninguém Via</h1>
+  </div>
+</div>
+
+<div class="content">
+  <div class="meta">
+    <div class="meta-item">Autor <span>Rubens Correia Jr.</span></div>
+    <div class="meta-item">Localização <span>Vancouver, Canadá</span></div>
+    <div class="meta-item">Período <span>1995 — 2001</span></div>
+    <div class="meta-item">Texto <span>© Rubens Correia Jr.</span></div>
+    <div class="meta-item">Imagem <span>Gerada por IA</span></div>
+  </div>
+
+  <div class="body-text">
+    <p>Suspeita-se que este canadense matou quase cinquenta mulheres entre os anos 1995 e 2001. Além disso, ficou conhecido como o "assassino da fazenda de porcos" que eventualmente distribuía a amigos e conhecidos a carne das próprias vítimas misturadas à de seu rebanho. Outra acusação frequente é que grande parte dos corpos foi usada para a alimentação de seus porcos — o que impossibilitou a resolução dos crimes relacionados às dezenas de mulheres que desapareceram no final dos anos 1990 na região de Vancouver.</p>
+
+    <p>Diferente de vários homicidas em série, Pickton era abastado e um destacado fazendeiro. Nasceu em 1949, segundo de três filhos em uma família comum da zona rural da Colúmbia Britânica. Seu pai já tratava de um rebanho de porcos — negócio que não só foi herdado pelo filho como expandido com sucesso.</p>
+
+    <div class="section-title">A Infância e o Isolamento</div>
+
+    <p>No entanto, toda a expertise em cuidar de seu rebanho pareceu custar à vida social de Pickton, que desde criança sofreu bullying por causa da profissão de seu pai, de sua sujeira constante e do cheiro que exalava ao chegar à escola vindo direto da fazenda. Esta animosidade demonstrada pelos colegas levou o adolescente a uma vida introspectiva e cada vez mais reduzida à convivência com os porcos.</p>
+
+    <p>Embora antissocial, tornou-se um promissor fazendeiro e seu negócio prosperava. Quando tinha um pouco mais de 40 anos, a fazenda de sua família foi desmembrada e vendida — ele e seus irmãos se tornaram milionários. No entanto, nem mesmo o dinheiro tirou Robert da reclusão na zona rural, tampouco o fez mudar de ramo, pois continuou com a criação de porcos.</p>
+
+    <p>Seu modo de vida e principalmente sua dificuldade em ser simpático com as pessoas o levaram a ser um frequentador assíduo das zonas periféricas da cidade em busca de prostitutas. Não se sabe ao certo qual o verdadeiro estressor que levou Robert ao primeiro homicídio, mas sem dúvida nenhuma a partir de 1995 as prostitutas que ele frequentemente procurava começaram a desaparecer.</p>
+
+    <div class="section-title">A Invisibilidade das Vítimas</div>
+
+    <p>Em 1997 Pickton sofreu a primeira acusação em relação a uma tentativa de homicídio — embora não fosse exatamente novidade para Robert e seu irmão terem problemas com a justiça em outros aspectos. No entanto, seu processo não prosperou, pois a vítima tinha envolvimento com o tráfico e um histórico de uso de entorpecentes, e suas afirmações foram bastante desacreditadas.</p>
+
+    <p>Nesta época, Robert juntamente com seu irmão coordenou uma empresa que promovia eventos na região de Colúmbia Britânica — sempre com a presença de prostitutas e frequentadores de outras cidades.</p>
+
+    <p>Em 1998 os desaparecimentos frequentes de mulheres da região periférica de Colúmbia Britânica começaram a chamar a atenção de familiares e grupos ativistas. Embora as desaparecidas fossem, em sua maioria, miseráveis e excluídas da sociedade, alguns grupos cobraram duramente as autoridades para que dessem uma resposta oficial.</p>
+
+    <p><strong>Não havia um padrão entre as vítimas</strong> que divergiam na idade, na cor, no cabelo. As únicas semelhanças eram apenas o fato de serem prostitutas e viverem alijadas da sociedade canadense.</p>
+
+    <p>Vários suspeitos foram ouvidos ou investigados, mas a polícia não conseguia avançar nas investigações — até porque faltavam corpos e testemunhas. Para piorar, durante quase dez anos, estima-se que aproximadamente 150 mulheres desapareceram na periferia de Colúmbia Britânica.</p>
+
+    <div class="section-title">A Descoberta e o Julgamento</div>
+
+    <p>Em 2002 a polícia efetuou uma batida na fazenda de Robert Pickton. Muitos pesquisadores afirmam que a ação policial foi totalmente aleatória e não havia relação direta com as investigações dos desaparecimentos — a busca feita na propriedade teve como motivação uma suspeita de porte ilegal de armas.</p>
+
+    <p>Com exames de DNA, o sangue de algumas vítimas foi identificado. Além disso, alguns pertences das mulheres desaparecidas também foram encontrados na propriedade. No entanto, nenhum corpo foi achado de maneira inteira. A polícia encontrou vestígios de carne humana em freezers e em outros lugares da fazenda. Era difícil quantificar o número de vítimas, mas os investigadores estimaram cinco dezenas.</p>
+
+    <p>O padrão de DNA somente oportunizou que Robert fosse julgado por 26 crimes. No final, após um árduo julgamento, o homicida foi condenado a seis prisões perpétuas, mesmo tendo negado amplamente qualquer acusação. Suas condenações não são maiores porque a justiça canadense obstou o julgamento de vinte de suas vítimas por achar desnecessário, tendo em vista a pena das seis primeiras.</p>
+
+    <div class="pull-quote">
+      <p>Tal decisão causou estranheza pela insegurança jurídica que passou a toda a população canadense — até porque em 2031 o homicida poderá sair em condicional pela lei do país.</p>
+      <cite>— Rubens Correia Jr.</cite>
+    </div>
+
+    <div class="analysis-box">
+      <div class="ab-label">Perspectiva Criminológica · Rubens Correia Jr.</div>
+      <p>O caso Pickton é uma aula sobre seletividade penal e vulnerabilidade social. Durante anos, dezenas de mulheres desapareceram e o sistema simplesmente não respondeu — porque eram prostitutas, porque eram pobres, porque eram marginalizadas. A invisibilidade das vítimas não foi um efeito colateral: foi um componente estrutural que permitiu ao homicida operar livremente por uma década.</p>
+      <p>Pickton não era um gênio do crime. Não tinha o charme de Bundy nem a astúcia de Fish. Era um homem comum, isolado, com dinheiro e uma fazenda. O que o protegeu por tanto tempo não foi sua inteligência — foi o desinteresse do sistema em proteger as mulheres que escolhia como vítimas.</p>
+      <p>Isso é o que a criminologia crítica chama de cifra negra: os crimes que nunca chegam ao sistema, não por falta de ocorrência, mas por falta de vontade institucional de enxergá-los. O caso de Pickton é, nesse sentido, tanto um crime individual quanto um crime sistêmico.</p>
+    </div>
+
+    <p>Hoje se especula que Robert deve ser levado a julgamento em breve para receber a sentença em relação às outras 20 vítimas. Embora muito ainda se fale sobre Robert, estranhamente seu irmão nunca foi sequer indiciado pelos crimes ou desaparecimentos — e não há previsão de que isto aconteça.</p>
+  </div>
+
+  <div class="cta-box">
+    <div class="cb-label">Aprofunde-se</div>
+    <h3>Arquivo Serial Killer</h3>
+    <p>A análise completa de Robert Pickton e outros casos reais está no livro <em>Arquivo Serial Killer</em> — onde você encontrará assassinos que chocaram o mundo. Arquivos perturbadores da mente humana que parecem saídos de um filme, mas aconteceram de verdade. Depois da primeira página, será difícil parar.</p>
+    <a href="https://go.hotmart.com/N106049045T" target="_blank" rel="noopener" class="btn">Ver o e-book →</a>
+  </div>
+  <div class="more-stories">
+    <div class="ms-label">Mais histórias</div>
+    <div class="ms-grid">
+      <a href="ted-bundy.html" class="ms-card">
+        <div class="mc-tag">EUA · 1974–1978</div>
+        <h4>Ted Bundy</h4>
+        <p>O charme como mecanismo de controle.</p>
+      </a>
+      <a href="albert-fish.html" class="ms-card">
+        <div class="mc-tag">EUA · Séc. XIX</div>
+        <h4>Albert Fish</h4>
+        <p>O vovô gentil que confessou mais de 100 homicídios.</p>
+      </a>
+      <a href="linguiceiros.html" class="ms-card">
+        <div class="mc-tag">Brasil · Séc. XIX</div>
+        <h4>Os Linguiceiros da Rua do Arvoredo</h4>
+        <p>O primeiro serial killer documentado do Brasil.</p>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Rubens Correia Jr. · <a href="index.html" style="color:var(--red);text-decoration:none;">Desvendando Mentes</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Os Linguiceiros da Rua do Arvoredo · Desvendando Mentes</title>
+<meta name="description" content="O primeiro caso documentado de homicídio serial no Brasil. Porto Alegre, 1863. José Ramos, Catarina Palse e o açougueiro Claussner.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bk:#06080a;--pp:#f5f0e8;--pp2:#ede8df;--red:#8b1a1a;--red2:#a82020;--r3:rgba(139,26,26,.12);--fg:#c8c4bc;--fg2:#8a857d;--fg3:#3a3530;--ink:#0e1114;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--bk);color:var(--fg);overflow-x:hidden;line-height:1.75;}
+::-webkit-scrollbar{width:2px;}::-webkit-scrollbar-thumb{background:var(--red);}
+nav{position:fixed;top:0;left:0;right:0;z-index:500;height:58px;padding:0 5vw;display:flex;justify-content:space-between;align-items:center;background:rgba(6,8,10,.97);backdrop-filter:blur(18px);border-bottom:1px solid rgba(139,26,26,.1);}
+.nb{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:700;color:var(--pp);text-decoration:none;}
+.nb em{color:var(--red);font-style:normal;}
+.nav-back{color:var(--fg3);font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:color .2s;}
+.nav-back:hover{color:var(--pp);}
+.hero-art{margin-top:58px;height:420px;background:linear-gradient(to bottom,rgba(6,8,10,0) 0%,rgba(6,8,10,.7) 60%,var(--bk) 100%),url('img-linguiceiros.png') center/cover no-repeat;display:flex;align-items:flex-end;padding:0 8vw 50px;}
+.art-tag{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:10px;}
+.art-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,4vw,50px);font-weight:700;color:var(--pp);line-height:1.1;max-width:700px;}
+.art-h1 em{color:var(--red);font-style:normal;}
+.content{max-width:760px;margin:0 auto;padding:60px 5vw 100px;}
+.meta{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.05);}
+.meta-item{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--fg3);}
+.meta-item span{color:var(--red);}
+.body-text p{font-size:16px;line-height:1.85;color:var(--fg);margin-bottom:24px;font-weight:300;}
+.body-text p strong{color:var(--pp);font-weight:500;}
+.pull-quote{border-left:2px solid var(--red);padding:20px 28px;margin:40px 0;background:rgba(139,26,26,.06);}
+.pull-quote p{font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.6;color:var(--pp2);font-style:italic;margin:0;}
+.pull-quote cite{font-size:11px;color:var(--fg3);letter-spacing:1px;margin-top:10px;display:block;font-style:normal;}
+.section-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;color:var(--pp);margin:48px 0 20px;padding-top:40px;border-top:1px solid rgba(255,255,255,.05);}
+.analysis-box{background:rgba(139,26,26,.08);border:1px solid rgba(139,26,26,.2);padding:28px 32px;margin:40px 0;}
+.analysis-box .ab-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.analysis-box p{font-size:15px;line-height:1.8;color:var(--fg);margin-bottom:16px;font-weight:300;}
+.analysis-box p:last-child{margin-bottom:0;}
+.cta-box{background:var(--ink);border:1px solid rgba(139,26,26,.2);padding:40px;margin:60px 0 0;text-align:center;}
+.cta-box .cb-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:14px;}
+.cta-box h3{font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--pp);margin-bottom:10px;}
+.cta-box p{font-size:14px;color:var(--fg2);margin-bottom:24px;font-weight:300;}
+.btn{background:var(--red);color:var(--pp);padding:14px 32px;font-size:10px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;display:inline-block;transition:all .25s;font-family:'DM Sans',sans-serif;font-weight:600;}
+.btn:hover{background:var(--red2);}
+.more-stories{margin-top:80px;padding-top:40px;border-top:1px solid rgba(255,255,255,.05);}
+.ms-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--fg3);margin-bottom:24px;}
+.ms-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.ms-card{border:1px solid rgba(255,255,255,.06);padding:24px;text-decoration:none;transition:border-color .2s;display:block;}
+.ms-card:hover{border-color:rgba(139,26,26,.4);}
+.ms-card .mc-tag{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:8px;}
+.ms-card h4{font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--pp);margin-bottom:6px;line-height:1.3;}
+.ms-card p{font-size:12px;color:var(--fg3);line-height:1.5;}
+footer{padding:40px 5vw;border-top:1px solid rgba(255,255,255,.04);text-align:center;}
+footer p{font-size:12px;color:var(--fg3);}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nb">Desvendando<em>Mentes</em></a>
+  <a href="index.html#serial" class="nav-back">← Voltar aos casos</a>
+</nav>
+
+<div class="hero-art">
+  <div>
+    <div class="art-tag">Brasil · Séc. XIX · Parque Existencial</div>
+    <h1 class="art-h1">Os Linguiceiros da Rua do Arvoredo — <em>O Mal Ordinário</em></h1>
+  </div>
+</div>
+
+<div class="content">
+  <div class="meta">
+    <div class="meta-item">Autor <span>Rubens Correia Jr.</span></div>
+    <div class="meta-item">Localização <span>Porto Alegre, 1863</span></div>
+    <div class="meta-item">Referência <span>Décio Freitas, 1996</span></div>
+    <div class="meta-item">Texto <span>© Rubens Correia Jr.</span></div>
+    <div class="meta-item">Imagem <span>Gerada por IA</span></div>
+  </div>
+
+  <div class="body-text">
+    <div class="pull-quote">
+      <p>"Na lúgubre Porto Alegre do Século XIX, a formosa e sensual 'amásia' do açougueiro atrai as vítimas. Seduzidos pela beleza inenarrável da moça, os pobres senhores eram levados para uma casa mal-assombrada, onde caíam em um alçapão, dando de cara com o açougueiro sanguinário, que por sua vez já os esperava sorridente, com um enorme machado na mão."</p>
+      <cite>— PRIKLADNICKI, 2005, p. 27</cite>
+    </div>
+
+    <p>Alguns anos antes do mundo conhecer Jack "o estripador" (1888), quando nem mesmo os Estados Unidos sofriam ou mesmo conheciam homicidas em série, Porto Alegre foi abalada por acontecimentos que deixariam qualquer jornalista londrino estático.</p>
+
+    <p>O ano: <strong>1863</strong>. O Brasil era governado pelo Imperador Dom Pedro II, que havia atravessado um período de grandes insurreições e estava prestes a enfrentar a guerra do Paraguai. Porto Alegre era uma cidade respeitável regionalmente, com pouco mais de 20 mil habitantes, e já apresentava problemas relacionados à urbanização recente e à falta de infraestrutura.</p>
+
+    <p>A cidade era formada por muitos cidadãos luso-brasileiros e também alemães, que apresentavam recorrentes problemas de convivência com frequentes desentendimentos étnicos e xenófobos. Além disso, como boa parte das capitais do Brasil, apresentava uma desigual concentração de renda e uma burguesia particularmente hipócrita que se beneficiava da pobreza.</p>
+
+    <div class="section-title">José Ramos — O Protagonista</div>
+
+    <p>Foi nessa atmosfera que surge um português chamado José Ramos. Sua história é nebulosa, seu ano de nascimento incerto. Especula-se que nasceu em Santa Catarina, filho de uma índia com um soldado desertor da guerra dos farrapos.</p>
+
+    <p>O relacionamento com o pai parece ter sido conflituoso e Ramos sofria constantes agressões, assim como sua mãe. O único momento que o filho se interessava em sentar-se ao lado do pai era para ouvir as histórias a respeito da guerra e toda sua violência.</p>
+
+    <p>Em um episódio de violência sofrido pela mãe, Ramos acabou por ferir o próprio pai e em seguida fugiu de casa. Perambulou pelo Estado do Rio Grande do Sul e se tornou policial. Sua violência excessiva resultou em sua expulsão das forças policiais. Em algum momento incerto, em Porto Alegre, conheceu a mulher que seria sua cúmplice nos crimes: <strong>Catarina Palse</strong>.</p>
+
+    <p>Catarina, que viria a se tornar sua esposa, era húngara. Especula-se que teve um passado trágico — com os pais e irmãos assassinados — e teria ainda sido estuprada por soldados russos (FREITAS, 1996). Ficou conhecida pela capacidade de convencimento e persuasão frente às vítimas.</p>
+
+    <p>Em 1863 José Ramos era um homem bem-apessoado, com aproximadamente 26 anos, mestiço-claro, falava fluentemente alemão, extremamente culto e detinha bons contatos na alta roda porto-alegrense.</p>
+
+    <div class="section-title">O Triângulo Homicida</div>
+
+    <p>Neste mesmo ano, José Ramos construiu uma amizade com o solitário açougueiro Carlos Claussner. Dessa amizade surgiu também a ideia do latrocínio. Tudo indica que partiu de Ramos a suposta ideia de finalizar tais crimes moendo a carne das vítimas e transformando-as em linguiças a serem vendidas no estabelecimento comercial do alemão (FREITAS, 1996).</p>
+
+    <p>Formado o triângulo homicida encabeçado e dirigido pelo português Ramos, as vítimas começaram a surgir. Segundo o historiador Freitas (1996), a primeira foi Luíza, viúva e colona de Santa Cruz, morta em junho — seus pertences foram roubados e depois seu cadáver reduzido a linguiça pelas mãos do alemão Claussner. Dias depois foi a vez de Afonso, um colono de Nova Petrópolis, também vítima de latrocínio.</p>
+
+    <p>Nos meses que se seguiram naquele ano, ainda foram mortos pelo trio homicida: o alemão Schmitt de São Leopoldo, Winkler do Rio de Janeiro, Hans Fritsche residente em Montevidéu e um sexto alemão não identificado. Todas essas seis vítimas sofreram latrocínio, sendo esquartejadas por José Ramos e reduzidas a linguiças por Claussner para serem então vendidas à sociedade porto-alegrense — não sem antes serem degustadas pelos dois homicidas e preparadas e temperadas por Catarina Palse (FREITAS, 1996).</p>
+
+    <div class="section-title">A Ruptura e o Fim</div>
+
+    <p>Após essas seis vítimas, o açougueiro alemão pareceu ter se cansado dos crimes e perdido sua motivação inicial. Afirmou a Ramos que não mais participaria daqueles homicídios e tampouco continuaria a produzir linguiças de carne humana.</p>
+
+    <p>Tal recusa não foi bem aceita por José Ramos, que matou Claussner ainda em 1863 — em setembro, mais precisamente. Sem a ajuda de um profissional, José Ramos não teve como reduzir nem mesmo esquartejar seu cúmplice, enterrando o cadáver no quintal.</p>
+
+    <p>Para encobrir o crime, forjou um recibo de compra do açougue e inventou que seu antigo dono havia se mudado para Montevidéu. Depois disso, Ramos gozou dos pertences e bens de Claussner e também tentou levar adiante o açougue. Mas o dinheiro se tornou escasso e o estabelecimento, sem o alemão, não prosperou.</p>
+
+    <p>Em 1864 o desejo homicida de Ramos se exponenciou e culminou com a morte de Januário Martins — um português de algumas posses — juntamente com o seu caixeiro José. Tais mortes representaram a ruína de Ramos, uma vez que muitos cidadãos o viram na companhia da vítima. E esta, ao contrário das outras, era portuguesa e gozava de certo status. As autoridades se voltaram para o caso e em pouco tempo estavam no quintal de Ramos e Palse, descobrindo três cadáveres.</p>
+
+    <div class="pull-quote">
+      <p>"As autoridades da província de São Pedro do Rio Grande do Sul descobriram que os alemães, motivados pela avareza, matam pessoas para fazer e vender linguiça de sua carne."</p>
+      <cite>— El Oriental (jornal uruguaio, 1865)</cite>
+    </div>
+
+    <p>Porto Alegre nesta época vivia uma tensão étnica entre alemães e luso-brasileiros. As autoridades não se empenhavam em solucionar casos onde o lesado era de origem alemã. As outras 7 vítimas não haviam chamado à atenção do delegado — até a morte de um português de posses.</p>
+
+    <p>Após a descoberta dos cadáveres, José Ramos foi preso e logo depois se juntou a ele sua esposa Catarina. Os julgamentos que se seguiram culminaram com a condenação à morte de Ramos, depois convertida em prisão perpétua, e a condenação a mais de dez anos de prisão para Catarina Palse.</p>
+
+    <div class="section-title">A Controvérsia Histórica</div>
+
+    <p>Hoje a doutrina se encontra dividida entre historiadores que defendem toda a história contada aqui — como o renomado e já falecido Décio Freitas (1996), autor de dezenas de livros de história e responsável pelo maior trabalho de pesquisa sobre o tema — e pesquisadores como Cláudio Elmir, que questionam a veracidade das informações, principalmente no que diz respeito ao aspecto do canibalismo.</p>
+
+    <p>Questionamentos à parte, é inegável que José Ramos e seus cúmplices foram nosso primeiro registro de homicidas em série. Pode-se questionar o número de vítimas — se três ou nove — e pode-se questionar o fato da produção de linguiça ou não com os cadáveres. Mas isso não afasta a veracidade dos homicídios e esquartejamentos, nem o modus operandi seguido por Ramos.</p>
+
+    <div class="analysis-box">
+      <div class="ab-label">Perspectiva Criminológica · Rubens Correia Jr.</div>
+      <p>O caso dos Linguiceiros é paradigmático porque revela algo que a criminologia contemporânea não cansa de demonstrar: o mal ordinário não precisa de monstros. José Ramos era culto, bem-apessoado, falava alemão fluentemente, tinha bons contatos. Catarina era persuasiva e carismática. Eram, sob qualquer perspectiva superficial, cidadãos integrados.</p>
+      <p>O que os casos como este nos ensinam — e que a Teoria do Parque Existencial trata diretamente — é que o contexto, a oportunidade e a ausência de vínculos simbólicos sólidos são condições suficientes para que o ser humano comum transborde para o ato criminoso mais extremo. Não há monstros. Há condições.</p>
+      <p>A invisibilidade das primeiras seis vítimas — todas alemãs, todas pobres — é também uma lição sobre como o sistema de justiça opera seletivamente. O crime só virou caso quando a vítima tinha status. Isso não é um detalhe histórico. É uma constante.</p>
+    </div>
+
+    <p>Catarina cumpriu sua pena e voltou à sociedade por volta de 1888. Anos depois foi encontrada morta em uma rua do centro da cidade, maltrapilha e doente. Cinco anos depois Ramos, já debilitado pela cegueira e doente, veio a falecer na prisão.</p>
+  </div>
+
+  <div class="cta-box">
+    <div class="cb-label">Aprofunde-se</div>
+    <h3>Arquivo Serial Killer</h3>
+    <p>A análise completa de José Ramos e Catarina Palse e outros casos reais está no livro <em>Arquivo Serial Killer</em> — onde você encontrará assassinos que chocaram o mundo. Arquivos perturbadores da mente humana que parecem saídos de um filme, mas aconteceram de verdade. Depois da primeira página, será difícil parar.</p>
+    <a href="https://go.hotmart.com/N106049045T" target="_blank" rel="noopener" class="btn">Ver o e-book →</a>
+  </div>
+  <div class="more-stories">
+    <div class="ms-label">Mais histórias</div>
+    <div class="ms-grid">
+      <a href="ted-bundy.html" class="ms-card">
+        <div class="mc-tag">EUA · 1974–1978</div>
+        <h4>Ted Bundy</h4>
+        <p>O charme como mecanismo de controle.</p>
+      </a>
+      <a href="albert-fish.html" class="ms-card">
+        <div class="mc-tag">EUA · Séc. XIX</div>
+        <h4>Albert Fish</h4>
+        <p>O vovô gentil que confessou mais de 100 homicídios.</p>
+      </a>
+      <a href="pickton.html" class="ms-card">
+        <div class="mc-tag">Canadá · 1995–2001</div>
+        <h4>Robert Pickton</h4>
+        <p>O fazendeiro que ninguém via.</p>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Rubens Correia Jr. · <a href="index.html" style="color:var(--red);text-decoration:none;">Desvendando Mentes</a></p>
+</footer>
+</body>
+</html>

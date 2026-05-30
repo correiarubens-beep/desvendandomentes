@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Albert Hamilton Fish — O Horror Por Trás do Rosto Gentil · Desvendando Mentes</title>
+<meta name="description" content="Albert Fish — o vovô gentil que confessou mais de 100 homicídios. Uma análise psicanalítica por Rubens Correia Jr.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bk:#06080a;--pp:#f5f0e8;--pp2:#ede8df;--red:#8b1a1a;--red2:#a82020;--r3:rgba(139,26,26,.12);--fg:#c8c4bc;--fg2:#8a857d;--fg3:#3a3530;--ink:#0e1114;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--bk);color:var(--fg);overflow-x:hidden;line-height:1.75;}
+::-webkit-scrollbar{width:2px;}::-webkit-scrollbar-thumb{background:var(--red);}
+nav{position:fixed;top:0;left:0;right:0;z-index:500;height:58px;padding:0 5vw;display:flex;justify-content:space-between;align-items:center;background:rgba(6,8,10,.97);backdrop-filter:blur(18px);border-bottom:1px solid rgba(139,26,26,.1);}
+.nb{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:700;color:var(--pp);text-decoration:none;}
+.nb em{color:var(--red);font-style:normal;}
+.nav-back{color:var(--fg3);font-size:10px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:color .2s;}
+.nav-back:hover{color:var(--pp);}
+.hero-art{margin-top:58px;height:420px;background:linear-gradient(to bottom,rgba(6,8,10,0) 0%,rgba(6,8,10,.7) 60%,var(--bk) 100%),url('img-fish.png') center/cover no-repeat;display:flex;align-items:flex-end;padding:0 8vw 50px;}
+.art-tag{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:10px;}
+.art-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,4vw,50px);font-weight:700;color:var(--pp);line-height:1.1;max-width:700px;}
+.art-h1 em{color:var(--red);font-style:normal;}
+.content{max-width:760px;margin:0 auto;padding:60px 5vw 100px;}
+.meta{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.05);}
+.meta-item{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--fg3);}
+.meta-item span{color:var(--red);}
+.body-text p{font-size:16px;line-height:1.85;color:var(--fg);margin-bottom:24px;font-weight:300;}
+.body-text p strong{color:var(--pp);font-weight:500;}
+.pull-quote{border-left:2px solid var(--red);padding:20px 28px;margin:40px 0;background:rgba(139,26,26,.06);}
+.pull-quote p{font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.6;color:var(--pp2);font-style:italic;margin:0;}
+.pull-quote cite{font-size:11px;color:var(--fg3);letter-spacing:1px;margin-top:10px;display:block;font-style:normal;}
+.section-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;color:var(--pp);margin:48px 0 20px;padding-top:40px;border-top:1px solid rgba(255,255,255,.05);}
+.analysis-box{background:rgba(139,26,26,.08);border:1px solid rgba(139,26,26,.2);padding:28px 32px;margin:40px 0;}
+.analysis-box .ab-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.analysis-box p{font-size:15px;line-height:1.8;color:var(--fg);margin-bottom:16px;font-weight:300;}
+.analysis-box p:last-child{margin-bottom:0;}
+.parafilia-box{background:rgba(6,8,10,.6);border:1px solid rgba(255,255,255,.06);padding:24px 28px;margin:32px 0;}
+.parafilia-box h4{font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--red);margin-bottom:14px;letter-spacing:1px;}
+.parafilia-box ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.parafilia-box li{font-size:12px;color:var(--fg3);padding-left:14px;position:relative;}
+.parafilia-box li::before{content:'·';color:var(--red);position:absolute;left:0;}
+.cta-box{background:var(--ink);border:1px solid rgba(139,26,26,.2);padding:40px;margin:60px 0 0;text-align:center;}
+.cta-box .cb-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:14px;}
+.cta-box h3{font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--pp);margin-bottom:10px;}
+.cta-box p{font-size:14px;color:var(--fg2);margin-bottom:24px;font-weight:300;}
+.btn{background:var(--red);color:var(--pp);padding:14px 32px;font-size:10px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;display:inline-block;transition:all .25s;font-family:'DM Sans',sans-serif;font-weight:600;}
+.btn:hover{background:var(--red2);}
+.more-stories{margin-top:80px;padding-top:40px;border-top:1px solid rgba(255,255,255,.05);}
+.ms-label{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--fg3);margin-bottom:24px;}
+.ms-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.ms-card{border:1px solid rgba(255,255,255,.06);padding:24px;text-decoration:none;transition:border-color .2s;display:block;}
+.ms-card:hover{border-color:rgba(139,26,26,.4);}
+.ms-card .mc-tag{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:8px;}
+.ms-card h4{font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--pp);margin-bottom:6px;line-height:1.3;}
+.ms-card p{font-size:12px;color:var(--fg3);line-height:1.5;}
+footer{padding:40px 5vw;border-top:1px solid rgba(255,255,255,.04);text-align:center;}
+footer p{font-size:12px;color:var(--fg3);}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nb">Desvendando<em>Mentes</em></a>
+  <a href="index.html#serial" class="nav-back">← Voltar aos casos</a>
+</nav>
+
+<div class="hero-art">
+  <div>
+    <div class="art-tag">EUA · Sadomasoquismo · Religião e Crime</div>
+    <h1 class="art-h1">Albert Hamilton Fish — O Horror Por Trás do <em>Rosto Gentil</em></h1>
+  </div>
+</div>
+
+<div class="content">
+  <div class="meta">
+    <div class="meta-item">Autor <span>Rubens Correia Jr.</span></div>
+    <div class="meta-item">Período <span>1870 — 1936</span></div>
+    <div class="meta-item">Referência <span>Bielba, 2007; Tendlarz & Garcia, 2013</span></div>
+    <div class="meta-item">Texto <span>© Rubens Correia Jr.</span></div>
+    <div class="meta-item">Imagem <span>Gerada por IA</span></div>
+  </div>
+
+  <div class="body-text">
+    <p>Albert Fish, a despeito de tantos outros assassinos, não teve uma infância que pudesse justificar suas atrocidades — pelo menos não até os cinco anos — uma vez que nasceu em uma família relativamente comum, uma típica família americana em plena expansão industrial no início da década de 1870. O mundo vivenciava uma mudança brusca em sua engrenagem de trabalho, no perfil urbano e no dia a dia das pessoas comuns.</p>
+
+    <p>A família Fish, nos primeiros anos de Albert, aparentemente vivia em harmonia. Em contrapartida a esse ilusório equilíbrio familiar, sua árvore genealógica era no mínimo peculiar — podíamos encontrar uma série de doenças mentais e diversas perturbações de ordem psiquiátrica em seus antepassados. Transtornos de comportamento eram vistos de maneira recorrente em seus parentes.</p>
+
+    <div class="pull-quote">
+      <p>"Acredita-se que sua mãe padecia de esquizofrenia, porque sempre dizia que ouvia vozes. Sua irmã estava louca e seu irmão era um alcoólatra. De seus tios, dois estavam internados em um sanatório."</p>
+      <cite>— BIELBA, 2007, p. 121-122</cite>
+    </div>
+
+    <div class="section-title">O Orfanato e o Trauma Fundante</div>
+
+    <p>Fish, o terceiro filho de quatro irmãos, viveu a citada vida típica de uma família americana no século XIX até seus cinco anos. Quando se abateu sobre ele uma tragédia: a morte de seu pai. Após este episódio foi levado a um orfanato — e lá, logo cedo, vivenciou uma série de violências e crueldades. Dentre tais abusos, foi recorrentemente espancado e chicoteado. Foi ainda nesta época que começou uma periódica enurese noturna.</p>
+
+    <div class="pull-quote">
+      <p>"Albert Fish declarou que seu sadomasoquismo se devia a suas amargas experiências juvenis, realizadas nestas instituições."</p>
+      <cite>— Tendlarz e Garcia, 2013, p. 154</cite>
+    </div>
+
+    <p>Aos nove anos sua mãe supostamente conseguiu reaver sua guarda. No entanto, os traumas vividos pelo pequeno Albert dentro do orfanato jamais seriam esquecidos. Tinha dificuldades para dormir e principalmente descobriu ainda criança que as sessões que lhe infligiam dor no orfanato causavam estranhamente um sentimento de satisfação.</p>
+
+    <p>Esta relação entre dor e prazer foi melhor desenvolvida a partir dos 12 anos e o acompanhou por toda a vida. Ainda garoto surgiu também um fanatismo religioso aliado a este sadismo — que o levou a uma fixação binária entre dor versus expiação dos pecados. A partir destes ingredientes se desenvolveu um sadomasoquismo obsessivo.</p>
+
+    <div class="section-title">Uma Vida de Transgressões</div>
+
+    <p>Especula-se que a introdução de objetos em sua pele — como agulhas e pregos, principalmente em seus genitais — tenha começado na adolescência, juntamente com a compulsão pela masturbação. Estes comportamentos levaram-no a uma série de internações em manicômios.</p>
+
+    <p>Ainda no começo da adolescência, Albert foi iniciado sexualmente por pessoas mais velhas que acabaram por lhe mostrar outros comportamentos sexuais não usuais. Historiadores afirmam que Fish teve contato com a coprofagia após os 12 anos. Aos 15 também já praticava frequentemente o voyeurismo. Aos 18 apresentava fortes sinais de pedofilia.</p>
+
+    <p>Aos 28 anos, morando em Nova Iorque, casou-se com uma mulher de 19 anos. De tal união nasceram seis filhos. Nesta época já praticava uma série de crimes sexuais e também se prostituía. Foi casado por mais de uma década — parte deste tempo esteve preso por diversos crimes. Aos 47 anos, após a separação, Fish começou a apresentar alucinações ainda mais acentuadas e se tornou mais obcecado pela dor e por todos os tipos de sacrifício.</p>
+
+    <div class="parafilia-box">
+      <h4>Albert Fish — Algumas de suas Parafilias</h4>
+      <ul>
+        <li>Sadomasoquismo</li>
+        <li>Coprofagia</li>
+        <li>Voyeurismo</li>
+        <li>Pedofilia</li>
+        <li>Urofilia</li>
+        <li>Canibalismo</li>
+        <li>Automutilação compulsiva</li>
+        <li>Masoquismo religioso</li>
+        <li>Necrofilia</li>
+        <li>Exibicionismo</li>
+      </ul>
+    </div>
+
+    <div class="section-title">As Vítimas</div>
+
+    <p>A data de seu primeiro homicídio é incerta. Alguns apontam 1924 como o ano que fez sua primeira vítima, no entanto desde 1910 especula-se que Albert Fish tenha matado e sodomizado outras crianças. A quantidade de mortes também é uma incógnita — em algumas de suas biografias apontam 50, outros acreditam em mais de 100 vítimas fatais.</p>
+
+    <p>Suas vítimas ideais eram crianças, das quais tinha prazer em desmembrar os corpos e depois literalmente comer as partes no jantar ou almoço. Torturava de maneira selvagem, desnudava as crianças, cortava orelhas e nariz, introduzia agulhas e outros artefatos nas vítimas.</p>
+
+    <p>Nos anos que se seguiram, Fish foi preso diversas vezes por delitos variados, sendo até mesmo confinado a um hospital psiquiátrico — onde o diagnosticaram como sendo uma personalidade psicopata do tipo sexual. Mas em nenhum momento relacionaram aquele senhor ao desaparecimento de tantas crianças e jovens.</p>
+
+    <p>O sadismo de Fish chegou ao ponto de enviar uma carta à mãe de uma das vítimas, descrevendo de maneira cruel todos os atos que infligiu à filha. Uma criança que Fish havia convidado para ir a uma festa de aniversário — e a mãe, confiando naquele senhor aparentemente tranquilo e respeitável, havia inocentemente autorizado.</p>
+
+    <p>Essa carta acabou por ser seu ato derradeiro, pois a polícia conseguiu pouco tempo depois encontrá-lo. Foi julgado por 15 homicídios, embora tenha confessado mais de 100. Sua defesa tentou alegar insanidade. No entanto, o júri considerou-o culpado e ele recebeu a pena de morte, sendo executado em 1936.</p>
+
+    <div class="pull-quote">
+      <p>"Que alegria morrer na cadeira elétrica. Será minha última excitação. A única que ainda não tenha provado."</p>
+      <cite>— Albert Fish, antes de sua execução (BIELBA, 2007, p. 125)</cite>
+    </div>
+
+    <p>No fatídico dia, demorou a morrer — talvez devido à quantidade de agulhas que trazia consigo, dentro de sua pelve.</p>
+
+    <div class="analysis-box">
+      <div class="ab-label">Perspectiva Psicanalítica · Rubens Correia Jr.</div>
+      <p>O caso Fish é clinicamente singular pela articulação entre religiosidade, masoquismo e sadismo extremo. A equação que Fish construiu — dor como expiação, violência como sacrifício, canibalismo como comunhão — revela uma estrutura onde o gozo é absolutamente mediado pela fantasia religiosa. Fish não matava apesar de sua fé. Fish matava através dela.</p>
+      <p>Sob a perspectiva lacaniana, Fish é um caso de perversão consumada, onde o sujeito se coloca como instrumento do gozo do Outro — mas de um Outro absolutamente imaginário, construído em torno de um Deus sanguinário e exigente. A autoflagelação não era punição pelos crimes: era preparação para eles. Era o ritual que dava sentido ao ato.</p>
+      <p>O que mais perturba no caso Fish não é a dimensão dos crimes — é a aparência. O "vovô gentil", sorridente, querido pelas crianças da vizinhança. Esse contraste radical entre a fachada social e o horror interno é precisamente o que a Teoria Joker, desenvolvida no Volume III da Trilogia Desvendando Mentes, busca explicar: não existe um rosto para o monstro. E é exatamente por isso que ele continua entre nós.</p>
+    </div>
+  </div>
+
+  <div class="cta-box">
+    <div class="cb-label">Aprofunde-se</div>
+    <h3>Arquivo Serial Killer</h3>
+    <p>A análise completa de Albert Fish e outros casos reais está no livro <em>Arquivo Serial Killer</em> — onde você encontrará assassinos que chocaram o mundo. Arquivos perturbadores da mente humana que parecem saídos de um filme, mas aconteceram de verdade. Depois da primeira página, será difícil parar.</p>
+    <a href="https://go.hotmart.com/N106049045T" target="_blank" rel="noopener" class="btn">Ver o e-book →</a>
+  </div>
+  <div class="more-stories">
+    <div class="ms-label">Mais histórias</div>
+    <div class="ms-grid">
+      <a href="ted-bundy.html" class="ms-card">
+        <div class="mc-tag">EUA · 1974–1978</div>
+        <h4>Ted Bundy</h4>
+        <p>O charme como mecanismo de controle.</p>
+      </a>
+      <a href="linguiceiros.html" class="ms-card">
+        <div class="mc-tag">Brasil · Séc. XIX</div>
+        <h4>Os Linguiceiros da Rua do Arvoredo</h4>
+        <p>O primeiro serial killer documentado do Brasil.</p>
+      </a>
+      <a href="pickton.html" class="ms-card">
+        <div class="mc-tag">Canadá · 1995–2001</div>
+        <h4>Robert Pickton</h4>
+        <p>O fazendeiro que ninguém via.</p>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Rubens Correia Jr. · <a href="index.html" style="color:var(--red);text-decoration:none;">Desvendando Mentes</a></p>
+</footer>
+</body>
+</html>
